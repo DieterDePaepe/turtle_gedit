@@ -12,7 +12,7 @@ text/plain
 # .. same for n3
 
 # install mime type if needed
-$ wget -P /tmp https://raw.githubusercontent.com/rmuller/turtle_gedit/master/n3.lang && xdg-mime install --novendor /tmp/n3.lang
+$ wget -P /tmp https://raw.githubusercontent.com/rmuller/turtle_gedit/master/n3.xml && xdg-mime install --novendor /tmp/n3.xml
 
 # check again
 $ xdg-mime query filetype path/to/somefile.ttl
